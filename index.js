@@ -15,11 +15,6 @@ const questions =
       message: "Please give a description of the project.",
       name: 'description',
     },
-    // {
-    //   type: 'input',
-    //   message: 'Please enter the Table of Contents',
-    //   name: 'table',
-    // },
     {
       type: 'input',
       message: 'Please enter the installation instructions',
@@ -27,7 +22,7 @@ const questions =
     },
     {
       type: 'input',
-      message: 'Please enter the usage information',
+      message: 'Please enter instructions on how to use this app.',
       name: 'usage',
     },
       // {
@@ -42,7 +37,7 @@ const questions =
     },
     {
       type: 'input',
-      message: 'How can other ',
+      message: 'Was any testing done on this project? If so, please give examples on how to run the tests. ',
       name: 'testing',
     },
     {
